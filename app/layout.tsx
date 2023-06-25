@@ -2,6 +2,8 @@ import "./globals.css"
 import { Roboto, Lobster_Two } from "next/font/google"
 import Nav from "./components/Nav"
 import Hydrate from "./components/Hydrate"
+import CarouselPage from "./components/Carousel"
+
 //Define main font
 const roboto = Roboto({
   weight: ["400", "500", "700"],
@@ -28,6 +30,7 @@ export default async function RootLayout({
     <html className={`${roboto.variable} ${lobster.variable}  `} lang="en">
       <Hydrate>
         <Nav />
+        <CarouselPage/>
         {children}
       </Hydrate>
     </html>
