@@ -11,7 +11,7 @@ import { motion } from "framer-motion"
 import { useThemeStore } from "@/store"
 
 const stripePromise = loadStripe(
-   `${process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY!}`
+  `${process.env.REACT_APP_STRIPE_PUBLISHABLE_KEY}`
 )
 
 export default function Checkout() {
