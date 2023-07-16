@@ -34,8 +34,12 @@
     "zustand": "^4.3.3"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
     "autoprefixer": "^10.4.14",
     "eslint": "^8.42.0",
+    "jest": "^29.6.0",
+    "jest-environment-jsdom": "^29.6.0",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.7"
   }

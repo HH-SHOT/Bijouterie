@@ -30,7 +30,6 @@ export default async function RootLayout({
     <html className={`${roboto.variable} ${lobster.variable}  `} lang="en">
       <Hydrate>
         <Nav />
-        <CarouselPage/>
         {children}
       </Hydrate>
     </html>
