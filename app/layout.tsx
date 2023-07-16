@@ -2,7 +2,6 @@ import "./globals.css"
 import { Roboto, Lobster_Two } from "next/font/google"
 import Nav from "./components/Nav"
 import Hydrate from "./components/Hydrate"
-import CarouselPage from "./components/Carousel"
 
 //Define main font
 const roboto = Roboto({
